@@ -1,0 +1,33 @@
+.carrusel-imagenes {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  scroll-snap-type: x mandatory;
+}
+
+.imagen-carrusel {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  scroll-snap-align: center;
+}
+
+.imagen-carrusel:hover {
+  transform: scale(1.1);
+}
+.carrusel-imagenes::-webkit-scrollbar {
+  height: 8px; /* alto de la barra horizontal */
+}
+
+.carrusel-imagenes::-webkit-scrollbar-track {
+  background: #f0f0f0; /* color de fondo de la pista */
+}
+
+.carrusel-imagenes::-webkit-scrollbar-thumb {
+  background-color: #f28b82; /* tu color deseado */
+  border-radius: 4px;
+}

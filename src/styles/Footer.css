@@ -1,0 +1,37 @@
+.footer {
+  background-color: black;
+  color: #fff !important;
+  padding: 10px 20px;  
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+.footer,
+.footer * {
+  color: #fff !important;
+}
+.contacto-footer {
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;  
+  flex-wrap: nowrap;
+  text-align: center;
+  gap: 10px;
+}
+
+.footer-info-left,
+.footer-info-center,
+.footer-info-right {
+  flex: 1;  /* que cada columna ocupe espacio igual */
+  margin: 0;
+  padding: 0;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  opacity: 0.9;
+  line-height: 1.2;
+}

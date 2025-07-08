@@ -1,0 +1,41 @@
+.carrito-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.carrito-card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+}
+
+.carrito-image {
+  max-height: 150px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.carrito-image:hover {
+  transform: scale(1.3);
+}
+
+
+.descripcion-carrito {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.vaciar-carrito-btn {
+  width: 26%;
+}
+
+.eliminar-producto-btn {
+  width: 30%;
+  background-color: #f28b82;
+  
+}
+
+.eliminar-producto-btn:hover {
+  background-color: #e06666;
+  
+}
